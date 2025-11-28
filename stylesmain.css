@@ -1,0 +1,88 @@
+.navbar{
+
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top:-8px;
+    margin-left:-8px;
+    margin-right:-8px;
+    background-color: rgb(255, 171, 68);
+}
+a{
+    /*text-decoration*/
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Segoe UI';
+    font-weight:1000;
+    -webkit-text-stroke: 0.5px black;
+    color: rgb(255, 255, 255);
+}
+.icon{
+    background-color: white;
+    padding: 20px;
+
+}
+.github{
+    margin-top: 10px;
+}
+
+
+body{
+    background-color: rgb(214, 214, 214);
+}
+
+footer{
+    font-family: 'Segoe UI';
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.64);
+    color: white;
+}
+.footerlogo{
+    margin-right:170px;
+    margin-top: 15px;
+}
+.footer_distribution{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p{
+    margin-left: 170px;
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: left;
+}
+
+h1{
+    font-family: 'Segoe UI';
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+p{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main-content{
+    background-color: rgba(250, 235, 215, 0.832);
+    padding: 30px;
+
+    margin-left:-8px;
+    margin-right:-8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.h1main{
+    font-size: 70px;
+    
+    justify-content: center;
+}
