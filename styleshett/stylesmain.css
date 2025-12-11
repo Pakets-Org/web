@@ -86,3 +86,45 @@ p{
     
     justify-content: center;
 }
+
+/* Download Page Styles */
+.main_download{
+    background-color: rgba(250, 235, 215, 0.832);
+    padding: 30px;
+    margin-left:-8px;
+    margin-right:-8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.download_section{
+    text-align: center;
+    margin-top: 50px;
+}
+.h1_download{
+    font-family: 'Segoe UI';
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.p_download{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+.a_download{
+    text-decoration: none;
+}
+.button_download{
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 15px 30px;
+    background-color: rgb(255, 171, 68);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.button_download:hover{
+    background-color: rgb(0, 0, 0);
+}
